@@ -14,9 +14,9 @@ File System Tab ➡️ Select Resources ➡️ LMB+SHIFT drag into Script Editor
 
 ```gdscript
 const things={
-    'a' : preload("uid://cn0q8uin0m4ma"),
-    'b' : preload("uid://drggpemtlmht7"),
-    'c' : preload("uid://c5m0miw46en5k"),
+	'a' : preload("uid://cn0q8uin0m4ma"),
+	'b' : preload("uid://drggpemtlmht7"),
+	'c' : preload("uid://c5m0miw46en5k"),
 }
 ```
 
