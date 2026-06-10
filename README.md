@@ -2,7 +2,7 @@
 ## Install
 * Add `godot_preload_drop_custom/` to your `addons/` folder.
 ## Why?
-Use Resources directly off the File System without having to manually edit each entry into a dictionary.
+Use Resources on disk directly from a dictionary without manually setting up each entry.
 
 Example File System
 
@@ -22,9 +22,7 @@ const things={
 
 Advantages
 
-* 1:1 `const` mapping to base file name (lets you move files inside folders).
-* Full autocomplete because `const`. Using all lowercase for file name consistency, but you could use uppercase.
+* Full autocomplete from `const`. Example: `things.a.color`
+* 1:1 mapping to base file name (organize Resources in folders without code changes).
 * Select, drag and drop from the filesystem tab, works recursively.
 * `uid://` can move files anywhere without breakage.
-* Access is as good as inline code aka `things.a.color`
-
