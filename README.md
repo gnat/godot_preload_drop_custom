@@ -2,6 +2,7 @@
 ## Install
 * Add `godot_preload_drop_custom/` to your `addons/` folder.
 ## Why?
+Use Resources directly off the File System without having to manually edit each entry into a dictionary.
 
 Example File System
 
@@ -26,3 +27,4 @@ Advantages
 * Select, drag and drop from the filesystem tab, works recursively.
 * `uid://` can move files anywhere without breakage.
 * Access is as good as inline code aka `things.a.color`
+
